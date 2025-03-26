@@ -1,0 +1,120 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "AiporiasAphelionPlayersPackSS",
+        "abbreviation": "AAPP",
+        "full": "Aiporia's Aphelion Players Pack: Warrior of the Shifting Self",
+        "authors": ["Aiporia"],
+        "convertedBy": ["Aiporia"],
+        "version": "2025_03_26",
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded":1743020450,
+    "dateLastModified": 1743020450
+  },
+  "subclass": [
+    {
+      "name": "Warrior of the Shifting Self",
+      "source": "AiporiasAphelionPlayersPackSS",
+      "page": 1,
+      "className": "Monk",
+      "classSource": "PHB",
+      "shortName": "Shifting Self",
+      "subclassFeatures": [
+        "Rubbery Self|Monk||Shifting Self|AiporiasAphelionPlayersPackSS|3",
+        "Bubbling Form|Monk||Shifting Self|AiporiasAphelionPlayersPackSS|6",
+        "Improved Bubbling Form|Monk||Shifting Self|AiporiasAphelionPlayersPackSS|11",
+        "Chains Broken|Monk||Shifting Self|AiporiasAphelionPlayersPackSS|17"
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Rubbery Self",
+      "source": "AiporiasAphelionPlayersPackSS",
+      "page": 1,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Shifting Self",
+      "subclassSource": "AiporiasAphelionPlayersPackSS",
+      "level": 3,
+      "entries": [
+        "Something something shapeling arts...",
+        {
+          "type": "refSubclassFeature",
+          "subclassFeature": "Rubbery Self|Monk||Shifting Self|AiporiasAphelionPlayersPackSS|3"
+        }
+      ]
+    },
+    {
+      "name": "Rubbery Self",
+      "source": "AiporiasAphelionPlayersPackSS",
+      "page": 1,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Shifting Self",
+      "subclassSource": "AiporiasAphelionPlayersPackSS",
+      "level": 3,
+      "header": 1,
+      "entries": [
+        "You have learned to draw on the power of the Shapeling Arts, gaining the following benefits:",
+        {
+          "type": "list",
+			"items": [
+          "Alter Self. You can expend 1 Focus Point to cast the Alter Self spell without spell components. When cast this way it lasts 8 hours and doesn't require concentration, and using the magic action to change the effect can take a bonus action instead of an action.",
+          "Malleable Limbs. You can expend 1 Focus Point to cast the Spider Climb spell without spell components. When cast this way it lasts 8 hours and doesn't require concentration.",
+          "Fluid Flesh. You can expend 1 Focus Point to cast the Eelskin spell without spell components.",
+          "Fleshy Abundance. When you use a magic action granted to you by this feature, you may gain temporary HP equal to your proficiency bonus."
+         ]
+        }
+      ]
+    },
+    {
+      "name": "Bubbling Form",
+      "source": "AiporiasAphelionPlayersPackSS",
+      "page": 1,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Shifting Self",
+      "subclassSource": "AiporiasAphelionPlayersPackSS",
+      "level": 6,
+      "header": 2,
+      "entries": [
+        "You can expend 5 Focus Points to cast the Polymorph spell targeting yourself. When cast this way, you gain temporary hit points no more than 5 times your monk level. In addition, when cast this way, you can still use your martial arts and Rubbery Self Features."
+      ]
+    },
+    {
+      "name": "Improved Bubbling Form",
+      "source": "AiporiasAphelionPlayersPackSS",
+      "page": 1,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Shifting Self",
+      "subclassSource": "AiporiasAphelionPlayersPackSS",
+      "level": 11,
+      "header": 2,
+      "entries": [
+        "When you cast Polymorph using Bubbling Form, you retain all of your monk features. In addition, you may target creatures other than yourself with Bubbling Form.",
+        "You are additionally immune to any spell or effect that would alter your form against your will."
+      ]
+    },
+    {
+      "name": "Chains Broken",
+      "source": "AiporiasAphelionPlayersPackSS",
+      "page": 1,
+      "className": "Monk",
+      "classSource": "PHB",
+      "subclassShortName": "Shifting Self",
+      "subclassSource": "AiporiasAphelionPlayersPackSS",
+      "level": 17,
+      "header": 2,
+      "entries": [
+        "You can expend 15 Focus Points to cast the True Polymorph spell targeting yourself using the Creature into Creature option. When cast this way, the spell ends after an hour, even if concentration is maintained the full duration. Once you use this ability in this way, you may not do so again until you have completed a long rest.",
+        "In addition, when you are concentrating on the Polymorph or True Polymorph spell, you can use a Magic Action to change the form of the target, which changes to the stats of another creature you would otherwise be able to select in the casting. The target gains no additional temporary health."
+      ]
+    }
+  ]
+}
