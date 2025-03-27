@@ -66,7 +66,7 @@
 			"items": [
           "Alter Self. You can expend 1 Focus Point to cast the {@spell alter self|XPHB} spell without spell components. When cast this way it lasts 8 hours and doesn't require concentration, and using the magic action to change the effect can take a bonus action instead of an action.",
           "Malleable Limbs. You can expend 1 Focus Point to cast the {@spell spider climb|XPHB} spell without spell components. When cast this way it lasts 8 hours and doesn't require concentration.",
-          "Fluid Flesh. You can expend 1 Focus Point to cast the {@spell eelskin|HGtMH} spell without spell components.",
+          "Fluid Flesh. You can expend 1 Focus Point to cast the {@spell eelskin|helianasguidetomonsterhunting} spell without spell components.",
           "Fleshy Abundance. When you use a magic action granted to you by this feature, you may gain temporary HP equal to your proficiency bonus."
          ]
         }
