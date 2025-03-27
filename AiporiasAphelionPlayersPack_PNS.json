@@ -1,0 +1,228 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "AiporiasAphelionPlayersPackNS",
+        "abbreviation": "AAPP",
+        "full": "Aiporia's Aphelion Players Pack: Otherworldy Partron The New Sequence",
+        "authors": ["Aiporia"],
+        "convertedBy": ["Aiporia"],
+        "version": "2025_03_27",
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded":1743020450,
+    "dateLastModified": 1743020450
+  },
+  	"subclass": [
+		{
+			"name": "The New Sequence",
+			"source": "AiporiasAphelionPlayersPackNS",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"shortName": "New Sequence",
+			"subclassSpells": [
+				"friends",
+				"light",
+				"faerie fire",
+				"guiding bolt",
+				"calm emotions",
+				"suggestion",
+				"daylight",
+				"spirit gaurdians",
+				"summon construct",
+				"compulsion",
+                "dawn",
+                "modify memory",
+                "creation"
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"expanded": {
+                        "0": [
+							"friends",
+							"light"
+						],
+						"1": [
+							"faerie fire",
+							"guiding bolt"
+						],
+						"2": [
+							"calm emotions",
+							"suggestion"
+						],
+						"3": [
+							"daylight",
+							"spirit gaurdians"
+						],
+						"4": [
+							"summon construct",
+							"compulsion"
+						],
+						"5": [
+							"dawn",
+							"modify memory",
+                            "creation"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"New Sequence|Warlock|PHB|New Sequence|AiporiasAphelionPlayersPackNS|3",
+				"YOU, YES YOU|Warlock|PHB|New Sequence|AiporiasAphelionPlayersPackNS|6",
+				"Element of Dawn|Warlock|PHB|New Sequence|AiporiasAphelionPlayersPackNS|10",
+				"N. THE SUN. THE SUN. THE SUN. THE SU-|Warlock|PHB|New Sequence|AiporiasAphelionPlayersPackNS|14"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "New Sequence",
+			"source": "AiporiasAphelionPlayersPackNS",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassSource": "AiporiasAphelionPlayersPackNS",
+			"subclassShortName": "New Sequence",
+			"page": 1,
+			"level": 3,
+			"entries": [
+				"A light grows in the far south-west. It begins like a distant bonfire, but very rapidly, it becomes brighter, brighter. It looks remarkably like sunrise. Some of your crew fall to their knees: others duck behind cover or shield their eyes.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Spell List|Warlock|PHB|New Sequence|AiporiasAphelionPlayersPackNS|3|AiporiasAphelionPlayersPackNS"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tools of the New Sequence|Warlock|PHB|New Sequence|AiporiasAphelionPlayersPackNS|3|AiporiasAphelionPlayersPackNS"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Iron Fist in a Velvet Glove|Warlock|PHB|New Sequence|AiporiasAphelionPlayersPackNS|3|AiporiasAphelionPlayersPackNS"
+				}
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "AiporiasAphelionPlayersPackNS",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassSource": "AiporiasAphelionPlayersPackNS",
+			"subclassShortName": "New Sequence",
+			"page": 1,
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"New Sequence lets you choose from an extended list of spells when you learn a warlock spell. The following spells are added to the Warlock list for you.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Spell Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"cantrips",
+							"{@spell friends|XPHB}, {@spell light|XPHB}"
+						],                        
+						[
+							"1st",
+							"{@spell faerie fire|XPHB}, {@spell guiding bolt|XPHB}"
+						],
+						[
+							"2nd",
+							"{@spell suggestion|XPHB}, {@spell calm emotions|XPHB}"
+						],
+						[
+							"3rd",
+							"{@spell daylight|XPHB}, {@spell spirit gaurdians|XPHB}"
+						],
+						[
+							"4th",
+							"{@spell summon construct|XPHB}, {@spell compulsion|XPHB}"
+						],
+						[
+							"5th",
+							"{@spell dawn|xge}, {@spell modify memory|XPHB}, {@spell creation|XPHB}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tools of the New Sequence",
+			"source": "AiporiasAphelionPlayersPackNS",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassSource": "AiporiasAphelionPlayersPackNS",
+			"subclassShortName": "New Sequence",
+			"page": 1,
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you gain this feature, pick 2 Artificer Infusions to learn. You learn 2 additional infusions at lvl 6, 10, and 14. At each of these levels you can also replace one infusion you learned with another. You can infuse 1 item at a time and gain a maximum active infusion at levels 6 (2 total), 10 (3 total), and 14 (4 total). See Artificers ‘Infuse Item’ for more information. You may use cha instead of int for the infusions."
+			]
+		},
+		{
+			"name": "Iron Fist in a Velvet Glove",
+			"source": "AiporiasAphelionPlayersPackNS",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassSource": "AiporiasAphelionPlayersPackNS",
+			"subclassShortName": "New Sequence",
+			"page": 1,
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"you gain Proficiency in Tinkers Tools and one other tool set of your choice as well as proficiency in one of the following skills: Arcana, History, Religion, Investigation, or Nature. You can choose to replace any ability modifiers with selected tools and skills with charisma."
+			]
+		},
+		{
+			"name": "YOU, YES YOU",
+			"source": "AiporiasAphelionPlayersPackNS",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassSource": "AiporiasAphelionPlayersPackNS",
+			"subclassShortName": "New Sequence",
+			"page": 1,
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Instead of ending the effect, when a creature takes damage while charmed by you while under the effect of a spell that would end for the first time, it instead gets to make a save against your spell save dc to end the effect. Any subsequent instances of damage end the charm like normal. In addition you have advantage against saves against light based effects as determined by your gm"
+			]
+		},
+		{
+			"name": "Element of Dawn",
+			"source": "AiporiasAphelionPlayersPackNS",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassSource": "AiporiasAphelionPlayersPackNS",
+			"subclassShortName": "New Sequence",
+			"page": 1,
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At level 10 you learn the spell {@spell continual flame|XPHB}. In addition bright light created by your spells is considered Dawn Light. Creatures within Dawn Light created by you have disadvantage on saving throws against your Enchantment and Illusion spells."
+			]
+		},
+		{
+			"name": "N. THE SUN. THE SUN. THE SUN. THE SU-",
+			"source": "AiporiasAphelionPlayersPackNS",
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassSource": "AiporiasAphelionPlayersPackNS",
+			"subclassShortName": "New Sequence",
+			"page": 1,
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"When you cast {@spell daylight|XPHB} you may cast it without spending a pact magic spell slot. As part of the magic action used to cast Daylight, you may cast an Enchantment or Illusion spell using a pact magic spell slot or a mystic arcanum that has a casting time of one action. You may target any number of creatures within the daylight spell regardless of the number of targets. This spell immediately ends if a creature leaves the area of the daylight. Once you use this feature you may not do so until you complete a long rest."
+			]
+		}
+	]
+}
