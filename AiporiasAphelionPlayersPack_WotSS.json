@@ -64,8 +64,8 @@
         {
           "type": "list",
 			"items": [
-          "Alter Self. You can expend 1 Focus Point to cast the {@spell alter self|xphb} spell without spell components. When cast this way it lasts 8 hours and doesn't require concentration, and using the magic action to change the effect can take a bonus action instead of an action.",
-          "Malleable Limbs. You can expend 1 Focus Point to cast the {@spell spider climb|xphb} spell without spell components. When cast this way it lasts 8 hours and doesn't require concentration.",
+          "Alter Self. You can expend 1 Focus Point to cast the {@spell alter self|XPHB} spell without spell components. When cast this way it lasts 8 hours and doesn't require concentration, and using the magic action to change the effect can take a bonus action instead of an action.",
+          "Malleable Limbs. You can expend 1 Focus Point to cast the {@spell spider climb|XPHB} spell without spell components. When cast this way it lasts 8 hours and doesn't require concentration.",
           "Fluid Flesh. You can expend 1 Focus Point to cast the {@spell eelskin|HGtMH} spell without spell components.",
           "Fleshy Abundance. When you use a magic action granted to you by this feature, you may gain temporary HP equal to your proficiency bonus."
          ]
@@ -83,7 +83,7 @@
       "level": 6,
       "header": 2,
       "entries": [
-        "You can expend 5 Focus Points to cast the {@spell polymorph|xphb} spell targeting yourself. When cast this way, you gain temporary hit points no more than 5 times your monk level. In addition, when cast this way, you can still use your martial arts and Rubbery Self Features."
+        "You can expend 5 Focus Points to cast the {@spell polymorph|XPHB} spell targeting yourself. When cast this way, you gain temporary hit points no more than 5 times your monk level. In addition, when cast this way, you can still use your martial arts and Rubbery Self Features."
       ]
     },
     {
@@ -97,7 +97,7 @@
       "level": 11,
       "header": 2,
       "entries": [
-        "When you cast {@spell polymorph|xphb} using Bubbling Form, you retain all of your monk features. In addition, you may target creatures other than yourself with Bubbling Form.",
+        "When you cast {@spell polymorph|XPHB} using Bubbling Form, you retain all of your monk features. In addition, you may target creatures other than yourself with Bubbling Form.",
         "You are additionally immune to any spell or effect that would alter your form against your will."
       ]
     },
@@ -112,8 +112,8 @@
       "level": 17,
       "header": 2,
       "entries": [
-        "You can expend 15 Focus Points to cast the {@spell true polymorph|xphb} spell targeting yourself using the Creature into Creature option. When cast this way, the spell ends after an hour, even if concentration is maintained the full duration. Once you use this ability in this way, you may not do so again until you have completed a long rest.",
-        "In addition, when you are concentrating on the {@spell polymorph|xphb} or {@spell true polymorph|xphb} spell, you can use a Magic Action to change the form of the target, which changes to the stats of another creature you would otherwise be able to select in the casting. The target gains no additional temporary health."
+        "You can expend 15 Focus Points to cast the {@spell true polymorph|XPHB} spell targeting yourself using the Creature into Creature option. When cast this way, the spell ends after an hour, even if concentration is maintained the full duration. Once you use this ability in this way, you may not do so again until you have completed a long rest.",
+        "In addition, when you are concentrating on the {@spell polymorph|XPHB} or {@spell true polymorph|XPHB} spell, you can use a Magic Action to change the form of the target, which changes to the stats of another creature you would otherwise be able to select in the casting. The target gains no additional temporary health."
       ]
     }
   ]
