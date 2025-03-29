@@ -7,13 +7,13 @@
         "full": "Aiporia's Aphelion Players Pack: Warrior of the Shifting Self",
         "authors": ["Aiporia"],
         "convertedBy": ["Aiporia"],
-        "version": "2025_03_27",
+        "version": "2025_03_26",
         "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       }
     ],
     "edition": "classic",
     "dateAdded":1743020450,
-    "dateLastModified": 1743021499
+    "dateLastModified": 1743020450
   },
   "subclass": [
     {
@@ -23,6 +23,13 @@
       "className": "Monk",
       "classSource": "PHB",
       "shortName": "Shifting Self",
+      "subclassSpells": [
+				"alter self",
+				"spider climb",
+				"eelskin",
+				"polymorph",
+        "true polymorph"
+			],
       "subclassFeatures": [
         "Rubbery Self|Monk||Shifting Self|AiporiasAphelionPlayersPackSS|3",
         "Bubbling Form|Monk||Shifting Self|AiporiasAphelionPlayersPackSS|6",
@@ -66,7 +73,7 @@
 			"items": [
           "Alter Self. You can expend 1 Focus Point to cast the {@spell alter self|XPHB} spell without spell components. When cast this way it lasts 8 hours and doesn't require concentration, and using the magic action to change the effect can take a bonus action instead of an action.",
           "Malleable Limbs. You can expend 1 Focus Point to cast the {@spell spider climb|XPHB} spell without spell components. When cast this way it lasts 8 hours and doesn't require concentration.",
-          "Fluid Flesh. You can expend 1 Focus Point to cast the {@spell eelskin|helianasguidetomonsterhunting} spell without spell components.",
+          "Fluid Flesh. You can expend 1 Focus Point to cast the {@spell eelskin|HGtMH} spell without spell components.",
           "Fleshy Abundance. When you use a magic action granted to you by this feature, you may gain temporary HP equal to your proficiency bonus."
          ]
         }
