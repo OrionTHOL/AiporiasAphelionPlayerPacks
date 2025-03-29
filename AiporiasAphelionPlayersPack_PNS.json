@@ -7,13 +7,13 @@
         "full": "Aiporia's Aphelion Players Pack: Otherworldy Partron The New Sequence",
         "authors": ["Aiporia"],
         "convertedBy": ["Aiporia"],
-        "version": "2025_03_27",
+        "version": "2025_03_29",
         "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       }
     ],
     "edition": "classic",
     "dateAdded":1743020450,
-    "dateLastModified": 1743020450
+    "dateLastModified": 1743022450
   },
   	"subclass": [
 		{
@@ -30,12 +30,13 @@
 				"calm emotions",
 				"suggestion",
 				"daylight",
+				"continual flame",
 				"spirit gaurdians",
 				"summon construct",
 				"compulsion",
-                "dawn",
-                "modify memory",
-                "creation"
+		                "dawn",
+        		        "modify memory",
+                		"creation"
 			],
 			"additionalSpells": [
 				{
