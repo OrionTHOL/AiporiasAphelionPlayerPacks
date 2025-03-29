@@ -28,7 +28,7 @@
 				"spider climb|XPHB",
 				"eelskin|helianasguidetomonsterhunting",
 				"polymorph|XPHB",
-       	"true polymorph|XPHB"
+     			  	"true polymorph|XPHB"
 			],
       "additionalSpells": [
 				{
@@ -37,7 +37,7 @@
 						"2": [
 							"alter self|XPHB",
 							"spider climb|XPHB",
-              "eelskin|helianasguidetomonsterhunting"
+             						"eelskin|helianasguidetomonsterhunting"
 						],
 						"4": [
 							"polymorph|XPHB"
