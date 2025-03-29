@@ -7,13 +7,13 @@
         "full": "Aiporia's Aphelion Players Pack: Warrior of the Shifting Self",
         "authors": ["Aiporia"],
         "convertedBy": ["Aiporia"],
-        "version": "2025_03_26",
+        "version": "2025_03_29",
         "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
       }
     ],
     "edition": "classic",
     "dateAdded":1743020450,
-    "dateLastModified": 1743020450
+    "dateLastModified": 1743020451
   },
   "subclass": [
     {
@@ -28,7 +28,7 @@
 				"spider climb",
 				"eelskin",
 				"polymorph",
-        "true polymorph"
+       				"true polymorph"
 			],
       "subclassFeatures": [
         "Rubbery Self|Monk||Shifting Self|AiporiasAphelionPlayersPackSS|3",
