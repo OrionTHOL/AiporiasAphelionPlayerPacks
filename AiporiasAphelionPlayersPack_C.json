@@ -1,0 +1,167 @@
+{
+    "_meta": {
+      "sources": [
+        {
+          "json": "AiporiasAphelionPlayersPackCS",
+          "abbreviation": "AAPP",
+          "full": "Aiporias Aphelion Players Pack Chromatic Sorcery",
+          "authors": ["Variable"],
+          "convertedBy": ["Aiporia"],
+          "version": "2025_03_27",
+          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        }
+      ],
+      "edition": "classic",
+      "dateAdded":1743020450,
+      "dateLastModified": 1743020450
+	},
+	"subclass": [
+		{
+			"name": "Chromat",
+			"subclassFeatures": [
+				"Chromat|Sorcerer||Chromat|AiporiasAphelionPlayersPackCS|3",
+				"Chromatic Control|Sorcerer||Chromat|AiporiasAphelionPlayersPackCS|6",
+				"undecided|Sorcerer||Chromat|AiporiasAphelionPlayersPackCS|14",
+				"Prismatic Mastery|Sorcerer||Chromat|AiporiasAphelionPlayersPackCS|18"
+			],
+			"source": "AiporiasAphelionPlayersPackCS",
+			"shortName": "Chromat",
+			"className": "Sorcerer",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Chromat",
+			"source": "AiporiasAphelionPlayersPackCS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Chromat",
+			"subclassSource": "AiporiasAphelionPlayersPackCS",
+			"level": 3,
+			"entries": [
+				"You have always seen the world in a different way. Colours seem more vibrant to you and you often see them in swirling, shifting hues that others just don’t seem to notice. As your arcane powers fully manifest, your eyes transform into two different colours which allow you to draw magical energy from sources of those colours around you. Your innate magic and powers might be from experimenting with Prismatic magic, an Archfey’s blessing, or simply manifested from exposure to colour for the first time after years relying on Darkvision or being blind. Whatever the cause, your eyes have been truly opened to the beauty of magic and colour, and now the world spreads out before you like a canvas, every shade a chance to harness magical power to your own ends.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dichromancy|Sorcerer||Chromat|AiporiasAphelionPlayersPackCS|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Cantrip|Sorcerer||Chromat|AiporiasAphelionPlayersPackCS|3"
+				},
+                {
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Spell List|Sorcerer||Chromat|AiporiasAphelionPlayersPackCS|3"
+				}
+			]
+		},
+		{
+			"name": "Dichromancy",
+			"entries": [
+				"Starting at 1st level, the colours of your eyes reveal the types of magic you can draw chromatic power from to enhance your spellcasting. Choose two of the following options, you cannot choose the same result twice. You may choose to determine your Dichromancy randomly and can do this by rolling a d10 twice and noting the results on the table. If you roll the same result on the second roll, you can pick a different colour of your choice instead.",
+				{
+					"type": "table",
+					"caption": "Dichromancy Table",
+					"colLabels": [
+						"{@dice d10}",
+						"Eye Colour",
+                        "Damage Type"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+                        ["1", "Red", "Fire"],
+                        ["2", "Orange", "Acid"],
+                        ["3", "Yellow", "Lightning"],
+                        ["4", "Green", "Poison"],
+                        ["5", "Blue", "Cold"],
+                        ["6", "Indigo", "Thunder"],
+                        ["7", "Violet", "Force"],
+                        ["8", "White", "Radiant"],
+                        ["9", "Black", "Necrotic"],
+                        ["10", "Choose", "Choose"]
+                    ]
+				},
+				"When you cast spells you can draw magical power from either of your Dichromancy results within your line of sight to unleash additional magical energy. This ability does not function if you cannot see colour, for example, whilst using Darkvision or whilst blinded.",
+                "You may immediately gain a spell of 1st level or higher for each of your Dichromancy damage types from any spell list.",
+                "Once per turn, when you cast a spell of 1st level or higher that deals a damage type associated with either of your eye colours, you may deal damage of the same type equal to the level of the spell plus your Charisma modifier to one creature within 30 feet."
+			],
+			"source": "AiporiasAphelionPlayersPackCS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Chromat",
+			"subclassSource": "AiporiasAphelionPlayersPackCS",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Bonus Cantrip",
+			"entries": [
+				"At 3rd level, you learn one cantrip, from any class list, that deals damage of a type corresponding to one of your Dichromancy colours. Regardless of the list you choose from, this counts as a sorcerer cantrip for you but does not count against your number of cantrips known."
+			],
+			"source": "AiporiasAphelionPlayersPackCS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Chromat",
+			"subclassSource": "AiporiasAphelionPlayersPackCS",
+			"level": 3,
+			"header": 1
+		},
+        {
+			"name": "Expanded Spell List",
+			"entries": [
+				"Starting at 3rd level, and at every odd-numbered level thereafter, when your Spellcasting feature lets you learn or replace a sorcerer spell of 1st level or higher, you can choose the new spell from the sorcerer, wizard, cleric, or druid spell lists as long as the chosen spell deals a damage type associated with one of your Dichromancy colours.", 
+                "You must otherwise obey all restrictions for selecting the spell, and it becomes a sorcerer spell for you."
+			],
+			"source": "AiporiasAphelionPlayersPackCS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Chromat",
+			"subclassSource": "AiporiasAphelionPlayersPackCS",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Chromatic Control",
+			"source": "AiporiasAphelionPlayersPackCS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Chromat",
+			"subclassSource": "AiporiasAphelionPlayersPackCS",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, when you reduce a creature that isn't a construct or undead to 0 hit points with a spell of 1st level or higher, you can use your reaction to harvest their life energy and regain {@dice 1d4} expended sorcery points. You can use this feature a number of times equal to your proficiency bonus; and regain all expended uses when you finish a long rest."
+			]
+		},
+		{
+			"name": "undecided",
+			"source": "AiporiasAphelionPlayersPackCS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Chromat",
+			"subclassSource": "AiporiasAphelionPlayersPackCS",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"aaaaaaaaaaaaaaa"
+			]
+		},
+		{
+			"name": "Prismatic Mastery",
+			"source": "AiporiasAphelionPlayersPackCS",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Chromat",
+			"subclassSource": "AiporiasAphelionPlayersPackCS",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, your mastery of chromatic magic is complete. You can focus your sorcery and give yourself control over the full spectrum of magical power. As an action, you change your eyes into brilliant prisms of shifting colours. Whilst transformed in this way, you gain Truesight out to a range of 120 feet. You also gain resistance to fire, acid, lightning, poison, cold, thunder, force, radiant and necrotic damage.",
+                "In addition you gain a fly speed of 40 ft and once per turn when you use your Dichromancy feature, you can choose to have it deal damage of any type listed on the Dichromancy table. When you do so, that damage is increased to your Charisma modifier + your sorcerer level."
+			]
+		}
+	]
+}
