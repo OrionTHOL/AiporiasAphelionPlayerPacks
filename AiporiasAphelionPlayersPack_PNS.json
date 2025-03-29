@@ -13,7 +13,7 @@
     ],
     "edition": "classic",
     "dateAdded":1743020450,
-    "dateLastModified": 1743022450
+    "dateLastModified": 1743033450
   },
   	"subclass": [
 		{
@@ -23,20 +23,20 @@
 			"classSource": "PHB",
 			"shortName": "New Sequence",
 			"subclassSpells": [
-				"friends",
-				"light",
-				"faerie fire",
-				"guiding bolt",
-				"calm emotions",
-				"suggestion",
-				"daylight",
-				"continual flame",
-				"spirit gaurdians",
-				"summon construct",
-				"compulsion",
-		                "dawn",
-        		        "modify memory",
-                		"creation"
+				"friends|XPHB",
+				"light|XPHB",
+				"faerie fire|XPHB",
+				"guiding bolt|XPHB",
+				"calm emotions|XPHB",
+				"suggestion|XPHB",
+				"daylight|XPHB",
+				"continual flame|XPHB",
+				"spirit gaurdians|XPHB",
+				"summon construct|XPHB",
+				"compulsion|XPHB",
+		        "dawn|xge",
+        		"modify memory|XPHB",
+                "creation|XPHB"
 			],
 			"additionalSpells": [
 				{
