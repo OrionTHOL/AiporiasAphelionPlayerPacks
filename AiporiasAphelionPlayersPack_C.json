@@ -7,13 +7,13 @@
           "full": "Aiporias Aphelion Players Pack Chromatic Sorcery",
           "authors": ["Variable"],
           "convertedBy": ["Aiporia"],
-          "version": "2025_03_29",
+          "version": "2025_03_30",
           "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         }
       ],
       "edition": "classic",
       "dateAdded":1743020450,
-      "dateLastModified": 1743030450
+      "dateLastModified": 1743040450
 	},
 	"subclass": [
 		{
@@ -133,7 +133,9 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"At 6th level, when you reduce a creature that isn't a construct or undead to 0 hit points with a spell of 1st level or higher, you can use your reaction to harvest their life energy and regain {@dice 1d4} expended sorcery points. You can use this feature a number of times equal to your proficiency bonus; and regain all expended uses when you finish a long rest."
+				"Starting at 6th level, you gain the ability to alter the shifting hue and flow of the world around you.",
+				"When an effect that you can see (including yourself casting spells) would be able to deal one of the damage types included in the Dichromancy table, you may use your reaction to spend 3 sorcery points to change that damage type to match one of your Dichromancy results.",
+				"In addition, when you use your Dichromancy feature to deal damage, you or a creature within 30 feet of you gains resistance to the same damage type until the end of your next turn. You can use this feature a number of times equal to your Charisma modifier, and regain all uses after completing a long rest."
 			]
 		},
 		{
