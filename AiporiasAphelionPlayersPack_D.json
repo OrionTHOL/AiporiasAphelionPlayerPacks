@@ -1,0 +1,94 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AiporiasAphelionPlayersPackD",
+				"abbreviation": "AAPP:D",
+				"full": "AiporiasAphelionPlayersPackDrownie",
+				"authors": [
+					"Aiporia"
+				],
+				"convertedBy": [
+					"Aiporia"
+				],
+				"version": "2025_04_06",
+				"color": "d3edc4",
+				"url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+				"dateReleased": "1661782823"
+			}
+		],
+		"edition": "classic",
+		"dateAdded": 1661782823,
+		"dateLastModified": 1731886430,
+		"_dateLastModifiedHash": "6674417b54"
+	},
+	"race": [
+		{
+			"name": "Drownie",
+			"source": "AiporiasAphelionPlayersPackD",
+			"page": 2,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"page": 2,
+					"entries": [
+						"You are Medium or Small. You choose the size when you gain this lineage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"page": 2,
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"page": 2,
+					"entries": [
+						"You have darkvision up to a range of 60 feet. You can see in dim light as if it were bright light, but can't see colors, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ancestral Legacy",
+					"page": 2,
+					"entries": [
+						"If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it. If you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Deathless Nature",
+					"page": 2,
+					"entries": [
+						"You have escaped death, a fact represented by the following benefits: You have advantage on saving throws against disease and being poisoned, and you have resistance to poison damage. You have advantage on death saving throws. You don't need to breathe."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Siren's Song",
+					"page": 2,
+					"entries": [
+						"You can sing with the loving call of the current. You gain the friends cantrip. When you cast it, you may target any creature that can hear you cast it whether or not you can see them. You may attempt to target creatures you are fighting, but they make their roll with advantage and may still attack you. You may choose the spellcasting modifier for this spell when you select this species. When you start your turn and a creature is charmed by you, you may use your action to force the creature to use its full move speed to get closer to you as a reaction."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Drawn to Fear",
+					"page": 2,
+					"entries": [
+						"When a ship's crew fears the zee, the fear draws the Drownies like moths to a flame. You learn the cause fear spell and may cast it once per day without expending a spell slot. In addition, you know the location of all creatures with the frightened condition within 1000 feet. Once per day, you may cast locate creature targeting a creature with the frightened condition that you are aware of, regardless of range or familiarity."
+					]
+				}
+			]
+		}
+	]
+}
