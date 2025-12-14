@@ -1,0 +1,171 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "AiporiasAphelionPlayersPackLampCat",
+				"abbreviation": "AAPP",
+				"full": "AiporiasAphelionPlayersPackLampCat",
+				"version": "1.0.0",
+				"authors": [
+					"Aiporia"
+				],
+				"convertedBy": [
+					"Aiporia"
+				],
+				"color": "ff8000"
+			}
+		],
+		"dateAdded": 1639755927,
+		"dateLastModified": 1729630006
+	},
+	"monster": [
+		{
+			"name": "Lamp Cat",
+			"source": "AiporiasAphelionPlayersPackLampCat",
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 2,
+				"formula": "1d4"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 15,
+				"swim": 40
+			},
+			"str": 3,
+			"dex": 15,
+			"con": 10,
+			"int": 8,
+			"wis": 12,
+			"cha": 8,
+			"save": {
+				"dex": "+4",
+				"cha": "+1"
+			},
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4",
+				"insight": "+5",
+				"acrobatics": "+3"
+			},
+			"senses": [
+				"Darkvision 60 ft."
+			],
+			"passive": 13,
+			"cr": "0",
+			"trait": [
+				{
+					"name": "Jumper",
+					"entries": [
+						"The lamp cat's jump distance is determined using its Dexterity rather than its Strength."
+					]
+				},
+				{
+					"name": "Angler Lamp",
+					"entries": [
+						"Bright light created by the lure of the lamp cat overrides magic darkness and creatures within the light can't benefit from the {@condition invisible} condition and insight checks against them have advantage."
+					]
+				},
+				{
+					"name": "Cats Playing Chess?",
+					"entries": [
+						"Lamp Cat's add twice their proficiency bonus and treat their intelligence as 18 when making a gaming tools check made to play chess. (\"Meow\", *takes your bishop for mate.)"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Scratch",
+					"entries": [
+						"{@atkr m} {@hit 4}, reach 5 ft. {@h}1 Slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"swamp",
+				"underdark",
+				"underwater",
+				"urban"
+			],
+			"familiar": true,
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/cat.mp3"
+			},
+			"senseTags": [
+				"D"
+			],
+			"miscTags": [
+				"MA"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "section",
+						"name": "Animals",
+						"entries": [
+							"Mmmm, kittycat."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://media.discordapp.net/attachments/1416042794392358965/1445167074996391986/Lampcat.webp?ex=692f5c38&is=692e0ab8&hm=10657fd2a8783e41ded53796e26a72ea7f796b756418191a557620425229199e&=&format=webp&width=125&height=163"
+						}
+					}
+				]
+			},
+			"resist": [
+				"cold",
+				"psychic"
+			],
+			"bonus": [
+				{
+					"name": "Lure",
+					"entries": [
+						"The lamp cat may enable or disable its lure. While enabled the Lamp Cat sheds 5 feet of bright light and another 5 feet of dim light."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Flash",
+					"entries": [
+						"{@actTrigger} The Lamp Cat uses its Lure bonus action. {@actResponse} The Lamp Cat chooses one creature that is Medium or smaller with eyes that can see the Lamp Cat. It gains one of the following affects:",
+						"*The creature expends it's reaction",
+						"*The creature has disadvantage on it's next {@dice D20} check.",
+						"If the target is Tiny or has less than 5 hp, the creature instead gains both affects and looses 15 ft of movement on it's next turn.",
+						"Once the Lamp Cat uses this feature, it cannot do so again until it completes a long rest."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://media.discordapp.net/attachments/1416042794392358965/1445168152135729273/Lampcat_token.webp?ex=692f5d39&is=692e0bb9&hm=e70dcc3f31603568a6af979def1a2d103e6b02aa48dc4e186df3f953518ba9f6&=&format=webp&width=320&height=320"
+			},
+			"damageTags": [
+				"S"
+			]
+		}
+	],
+	"table": [],
+	"optionalfeature": [],
+	"subclass": [],
+	"item": [],
+	"subclassFeature": []
+}
