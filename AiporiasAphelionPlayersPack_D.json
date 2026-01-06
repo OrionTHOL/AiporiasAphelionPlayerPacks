@@ -85,7 +85,7 @@
 					"name": "Drawn to Fear",
 					"page": 2,
 					"entries": [
-						"When a ship's crew fears the zee, the fear draws the Drownies like moths to a flame. You learn the {@spell cause fear|xge} spell and may cast it once per day without expending a spell slot. In addition, you know the location of all creatures with the {@condition Frightened|XPHB} condition within 1000 feet. Once per day, you may cast {@spell Locate Creature|XPHB} targeting a creature with the {@condition Frightened|XPHB} condition that you are aware of, regardless of range or familiarity."
+						"When a ship's crew fears the zee, the fear draws the Drownies like moths to a flame. You learn the {@spell Cause Fear|xge} spell and may cast it once per day without expending a spell slot. In addition, you know the location of all creatures with the {@condition Frightened|XPHB} condition within 1000 feet. Once per day, you may cast {@spell Locate Creature|XPHB} targeting a creature with the {@condition Frightened|XPHB} condition that you are aware of, regardless of range or familiarity."
 					]
 				}
 			]
