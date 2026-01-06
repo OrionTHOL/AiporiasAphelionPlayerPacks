@@ -13,8 +13,7 @@
 				],
 				"version": "2025_04_06",
 				"color": "d3edc4",
-				"url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-				"dateReleased": "1661782823"
+				"url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 			}
 		],
 		"edition": "classic",
@@ -28,6 +27,7 @@
 			"source": "AiporiasAphelionPlayersPackD",
 			"page": 2,
 			"size": [
+				"S",
 				"M"
 			],
 			"speed": 30,
@@ -69,7 +69,7 @@
 					"name": "Deathless Nature",
 					"page": 2,
 					"entries": [
-						"You have escaped death, a fact represented by the following benefits: You have advantage on saving throws against disease and being poisoned, and you have resistance to poison damage. You have advantage on death saving throws. You don't need to breathe."
+						"You have escaped death, a fact represented by the following benefits: You have {@variantrule Advantage|XPHB} on saving throws against diseases and the {@condition Poisoned|XPHB} condition, as well as {@variantrule Resistance|XPHB} to poison damage. You have {@variantrule Advantage|XPHB} on death saving throws. You don't need to breathe."
 					]
 				},
 				{
@@ -77,7 +77,7 @@
 					"name": "Siren's Song",
 					"page": 2,
 					"entries": [
-						"You can sing with the loving call of the current. You gain the friends cantrip. When you cast it, you may target any creature that can hear you cast it whether or not you can see them. You may attempt to target creatures you are fighting, but they make their roll with advantage and may still attack you. You may choose the spellcasting modifier for this spell when you select this species. When you start your turn and a creature is charmed by you, you may use your action to force the creature to use its full move speed to get closer to you as a reaction."
+						"You can sing with the loving call of the current. You gain the {@spell Friends|XPHB} cantrip. When you cast it, you may target any creature that can hear you cast it whether or not you can see them. You may attempt to target creatures you are fighting, but they make their save with {@variantrule Advantage|XPHB} and may still attack you when {@condition Charmed|XPHB} by you. You may choose the spellcasting modifier for this spell when you select this species. When you start your turn and a creature is charmed by you, you may use a {@action Magic|XPHB} action to force the creature to use its full move speed to get closer to you as a {@variantrule Reaction|XPHB}."
 					]
 				},
 				{
@@ -85,7 +85,7 @@
 					"name": "Drawn to Fear",
 					"page": 2,
 					"entries": [
-						"When a ship's crew fears the zee, the fear draws the Drownies like moths to a flame. You learn the cause fear spell and may cast it once per day without expending a spell slot. In addition, you know the location of all creatures with the frightened condition within 1000 feet. Once per day, you may cast locate creature targeting a creature with the frightened condition that you are aware of, regardless of range or familiarity."
+						"When a ship's crew fears the zee, the fear draws the Drownies like moths to a flame. You learn the {@spell cause fear|xge} spell and may cast it once per day without expending a spell slot. In addition, you know the location of all creatures with the {@condition Frightened|XPHB} condition within 1000 feet. Once per day, you may cast {@spell Locate Creature|XPHB} targeting a creature with the {@condition Frightened|XPHB} condition that you are aware of, regardless of range or familiarity."
 					]
 				}
 			]
