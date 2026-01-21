@@ -22,6 +22,12 @@
 			"className": "Warlock",
 			"classSource": "PHB",
 			"shortName": "New Sequence",
+		  
+			"identifier": "newSequence",
+			"system": {
+			  "identifier": "newSequence",
+			  "classIdentifier": "warlock"
+			},
 			"subclassSpells": [
 				"friends|XPHB",
 				"light|XPHB",
@@ -31,10 +37,10 @@
 				"suggestion|XPHB",
 				"daylight|XPHB",
 				"continual flame|XPHB",
-				"spirit gaurdians|XPHB",
+				"spirit guardians|XPHB",
 				"summon construct|XPHB",
 				"compulsion|XPHB",
-		        "dawn|xge",
+		        "dawn|XGE",
         		"modify memory|XPHB",
                 "creation|XPHB"
 			],
